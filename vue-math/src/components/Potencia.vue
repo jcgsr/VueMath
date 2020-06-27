@@ -1,10 +1,10 @@
 <template>
   <div class="soma">
     <div class="container">
-       <h2>Soma</h2>
-       <input @focus="$event.target.select()" type="number" name="number1" v-model="number1" /> +
-       <input @focus="$event.target.select()" type="number" name="numbr2" v-model="number2" />
-       <button class="animate__animated animate__tada btn-secondary" @click='zerar'>zerar</button>
+       <h2>Potenciação</h2>
+       Base <input @focus="$event.target.select()" type="number" name="number1" v-model="number1" />
+       Potência <input @focus="$event.target.select()" type="number" name="number2" v-model="number2" />
+       <button class="animate__animated animate__jello btn-secondary" @click='zerar'>zerar</button>
        <h2>{{ result }}</h2>
     </div>
   </div>
@@ -20,7 +20,7 @@ export default {
   }, 
   computed: {
     result() {
-      return parseFloat(this.number1) + parseFloat(this.number2);
+      return Math.pow(this.number1, this.number2)
     },
     
   },
@@ -37,10 +37,10 @@ export default {
 <style scoped>
 .soma {
   text-align: center;
-  background-color: blue;
+  background-color: rgb(115, 197, 82);
   padding: 1rem;
   display: flex;  
-  justify-content: space-around;
+  justify-content: space-around;  
 }
 
 .container {
