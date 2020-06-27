@@ -41,6 +41,7 @@ export default {
   padding: 1rem;
   display: flex;  
   justify-content: space-around;
+  color: aliceblue;
 }
 
 .container {
