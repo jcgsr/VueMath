@@ -2,6 +2,7 @@
   <div class="eq_seg_grau">
     <div class="container">
      <h2>Equação do Segundo Grau</h2>
+     <h4>Completa</h4>
      Valor de 'a'
      <input @focus="$event.target.select()" type="number" name="numberA" v-model="numberA" /> 
      Valor de 'b'
