@@ -11,6 +11,7 @@ import Potencia from './components/Potencia.vue'
 import Porcentagem from './components/Porcentagem.vue'
 import RaizQuadrada from './components/RaizQuadrada.vue'
 import EqSegGrau from './components/EqSegGrau.vue'
+import Fatorial from './components/Fatorial.vue'
 
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -18,7 +19,7 @@ import 'animate.css'
 
 Vue.config.productionTip = false
 Vue.component([Footer, Soma, Subtracao, Multiplicacao, Divisao, Quadrado,
-  Cubo, Potencia, Porcentagem, RaizQuadrada, EqSegGrau
+  Cubo, Potencia, Porcentagem, RaizQuadrada, EqSegGrau, Fatorial
 ])
 
 new Vue({

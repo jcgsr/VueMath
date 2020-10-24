@@ -12,6 +12,7 @@
    <Porcentagem />
    <RaizQuadrada />
    <EqSegGrau />
+   <Fatorial />
    <Footer />
    
   </div>
@@ -30,6 +31,7 @@ import Potencia from './Potencia.vue'
 import Porcentagem from './Porcentagem.vue'
 import RaizQuadrada from './RaizQuadrada.vue'
 import EqSegGrau from './EqSegGrau.vue'
+import Fatorial from './Fatorial.vue'
 
 export default {
   data() {
@@ -48,7 +50,8 @@ export default {
     Potencia,
     Porcentagem,
     RaizQuadrada,
-    EqSegGrau
+    EqSegGrau,
+    Fatorial
   }
 }
 </script>
